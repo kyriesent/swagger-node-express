@@ -478,7 +478,9 @@ function appendToApi(rootResource, api, spec) {
     "notes" : spec.notes,
     "errorResponses" : spec.errorResponses,
     "nickname" : spec.nickname,
-    "summary" : spec.summary
+    "summary" : spec.summary,
+    "consumes" : spec.consumes,
+    "produces" : spec.produces
   };
   
   if (spec.responseClass) {
